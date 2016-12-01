@@ -33,7 +33,7 @@ Overview of classes:
     http://en.wikipedia.org/wiki/Mealy_machine
 """
 
-__version__ = '0.01'
+__version__ = '0.2.1'
 
 MACHINES = dict()
 
