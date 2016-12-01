@@ -30,8 +30,8 @@ The list of implemented FSM types:
    http://en.wikipedia.org/wiki/Mealy_machine
 """
 
-import sys
 import os
+import sys
 from distutils.core import setup
 
 src_path = os.path.dirname(os.path.realpath(__file__)) + '/src'
@@ -45,9 +45,8 @@ setup(name='python-fsm',
       long_description=__doc__,
       author='Slawek Ligus',
       author_email='root@ooz.ie',
-      url='https://github.com/oozie/python-fsm',
-      download_url='http://python-fsm.googlecode.com/files/python-fsm-%s.tar.gz' % __version__,
+      url='https://github.com/LoveIsGrief/python-fsm',
+      download_url='https://github.com/LoveIsGrief/python-fsm/archive/%s.tar.gz' % __version__,
       package_dir={'': 'src'},
-      py_modules=['fsm'],
-     )
-
+      py_modules=['fsm']
+      )
