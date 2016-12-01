@@ -48,5 +48,5 @@ setup(name='python-fsm',
       url='https://github.com/LoveIsGrief/python-fsm',
       download_url='https://github.com/LoveIsGrief/python-fsm/archive/%s.tar.gz' % __version__,
       package_dir={'': 'src'},
-      py_modules=['fsm']
+      packages=["fsm"]
       )

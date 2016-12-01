@@ -1,7 +1,7 @@
 #!/usr/bin/python
 
 from fsm import FiniteStateMachine, State
-from utils import get_graph
+from fsm.utils import get_graph
 
 STATES = ['LISTEN', 'SYN RCVD', 'ESTABLISHED', 'SYN SENT',
           'FIN WAIT 1', 'FIN WAIT 2', 'TIME WAIT', 'CLOSING', 'CLOSE WAIT',
